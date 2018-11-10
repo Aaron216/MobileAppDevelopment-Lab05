@@ -9,4 +9,6 @@
     <string name="show_location">Show Location</string>
 
     <string name="take_photo">Take Photo</string>
+
+    <string name="search_contancts">Search Contacts</string>
 </resources>
