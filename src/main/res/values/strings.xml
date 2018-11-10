@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InteractiveApp</string>
+    
+    <string name="phone_number">Phone Number</string>
+    <string name="call">Call</string>
+    
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="show_location">Show Location</string>
+
+    <string name="take_photo">Take Photo</string>
+</resources>

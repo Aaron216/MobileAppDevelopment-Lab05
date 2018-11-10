@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+        <EditText
+            android:id="@+id/txtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:inputType="phone"/>
+        
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/call"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        
+        <EditText
+            android:id="@+id/txtLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/latitude"
+            android:inputType="numberSigned|numberDecimal"/>
+        
+        <EditText
+            android:id="@+id/txtLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/longitude"
+            android:inputType="numberSigned|numberDecimal"/>
+
+        <Button
+            android:id="@+id/btnShowLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_location"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/take_photo"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
